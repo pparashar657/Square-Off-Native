@@ -1,0 +1,19 @@
+package.SquareOffNATIVE = {
+
+    interfaces = (1.0);
+
+    build-system = npm-pretty-much;
+    build-tools = {
+        1.0 = {
+            NodeJS = 8.x;
+            NpmPrettyMuch = 1.0;
+        };
+    }
+
+    test-dependencies = {
+        1.0 = {
+            NodeJS-brazil-metro-bundler-config = 1.0;
+            ReactNativeBundleTools = 2.0;
+        };
+    };
+};
